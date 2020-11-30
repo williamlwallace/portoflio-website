@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.btn-icon {
+    background-color: transparent; 
+    border: none; 
+    color: rgb(43, 43, 43); 
+}
+.btn-icon:hover {
+    color: rgb(0, 174, 255);
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  padding: 20px;
+  max-width: 100vh;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+.icon {
+  margin: 20px
+}
+
+.project-grid {
+  margin: 20px;
+  display: grid
+}
+
+.project-card {
+  margin: 20px;
+  min-height: 15vh;
+  max-width: 30vh;
+}
+.project-row {
+  display: flex;
+}
