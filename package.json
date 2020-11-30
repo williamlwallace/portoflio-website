@@ -19,14 +19,14 @@
     "react-parallax-tilt": "^1.4.67",
     "react-particles-js": "^3.4.1",
     "react-rotating-text": "^1.4.1",
-    "react-scripts": "^4.0.1",
+    "react-scripts": "4.0.1",
     "react-scroll": "^1.8.1",
     "react-typing-animation": "^1.6.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
