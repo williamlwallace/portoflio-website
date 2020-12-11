@@ -13,9 +13,9 @@ function Home() {
             <Container>
                 <Tilt>
                     <Image src={profile} className="image" roundedCircle></Image>
-                    <h1>Hi, my name is William Wallace.</h1>
-                    <h3><ReactRotatingText items={['Software Engineer.', 'Full Stack Developer.', 'Front End Design Enthusiast.']}/></h3>
-                    <Button variant="icon" size="lg">
+                    <h1 className="font-weight-500">Hi, my name is William Wallace.</h1>
+                    <h3 className="font-weight-300  "><ReactRotatingText items={['Software Engineer.', 'Full Stack Developer.', 'Front End Design Enthusia  st.']}/></h3>
+                    <Button variant="icon" size="lg" href="mailto:williamwallace424@yahoo.co.nz">
                         <FaEnvelope size={32}></FaEnvelope>
                     </Button>
                     <Button variant="icon" size="lg" href="https://www.github.com/williamlwallace">

@@ -6,8 +6,7 @@ function About() {
         <div id="about" className="section">
             <div className="card">
                 <h1>About me.</h1>
-                <p>Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.
-                Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis.</p>
+                <p className="font-weight-300">I am about to graduate from the University of Canterbury with a Bachelor of Software Engineering with Honours. I love creating web applications and have enthusiasm torwards developing fluid, reactive and good-looking front-ends. I am a keen gymmer, training to hopefully compete in power-lifting competitions.</p>
 
                 <h4>Languages, frameworks and tools</h4>
                 <div className="spacing">
