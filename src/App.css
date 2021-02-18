@@ -46,11 +46,16 @@
     color: rgb(0, 174, 255);
 }
 
-.section {
+.home-section {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section {
+  margin: 5rem 2rem 5rem 2rem;
+  /* height: 50vh; */
 }
 
 .image {
@@ -59,13 +64,19 @@
 
 .about-card {
   padding: 2rem;
-  max-width: 100vh;
+  max-width: 80vh;
   box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+}
+
+.about-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   display: flex;
-  padding: 1rem;
   max-width: 100vh;
   box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
 }
@@ -74,18 +85,16 @@
   margin: 1.5rem
 }
 
-.project-grid {
-  display: grid
+.project-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-card {
   margin: 1rem;
-  min-height: 15vh;
-  max-width: 30vh;
-}
-
-.project-row {
-  display: flex;
+  max-width: 38vh;
 }
 
 .project-link {
@@ -103,6 +112,11 @@
 .project-link:hover .project-card-text {
   color: black;
   font-weight: 300;
+}
+
+.project-card-img {
+  width: 10rem;
+  height: 15rem;
 }
 
 .font-weight-500 {
