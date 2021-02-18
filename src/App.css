@@ -43,7 +43,7 @@
     color: rgb(43, 43, 43); 
 }
 .btn-icon:hover {
-    color: rgb(0, 174, 255);
+    color: rgb(0, 174, 255) !important;
 }
 
 .home-section {
@@ -125,8 +125,4 @@
 
 .font-weight-300 {
   font-weight: 300;
-}
-
-.sm-button:hover {
-  color:rgb(0, 174, 255) !important
 }
