@@ -14,7 +14,7 @@ function Home() {
                 <Tilt>
                     <Image src={profile} className="image" roundedCircle></Image>
                     <h1 className="font-weight-500">Hi, my name is William Wallace.</h1>
-                    <h3 className="font-weight-300  "><ReactRotatingText items={['Software Engineer.', 'Full Stack Developer.', 'Front End Design Enthusia  st.']}/></h3>
+                    <h3 className="font-weight-300  "><ReactRotatingText items={['Software Engineer.', 'Full Stack Web Developer.']}/></h3>
                     <Button variant="icon" size="lg" href="mailto:williamwallace424@yahoo.co.nz">
                         <FaEnvelope size={32}></FaEnvelope>
                     </Button>
