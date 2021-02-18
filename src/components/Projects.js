@@ -42,7 +42,7 @@ function Projects() {
                   <Card.Img
                     variant="top"
                     className="project-card-img"
-                    src="/images/travelea3.png"
+                    src="/images/travelea3.PNG"
                   />
                   <Card.Body>
                     <Card.Title className="project-card-title">
@@ -91,7 +91,7 @@ function Projects() {
                   <Card.Img
                     variant="top"
                     className="project-card-img"
-                    src="/images/pocketchef.png"
+                    src="/images/pocketchef.PNG"
                   />
                   <Card.Body>
                     <Card.Title className="project-card-title">
