@@ -126,3 +126,7 @@
 .font-weight-300 {
   font-weight: 300;
 }
+
+.sm-button:hover {
+  color:rgb(0, 174, 255) !important
+}

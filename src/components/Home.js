@@ -23,6 +23,7 @@ function Home() {
             />
           </h3>
           <Button
+            className="sm-button"
             variant="icon"
             size="lg"
             href="mailto:williamwallace424@yahoo.co.nz"
@@ -30,6 +31,7 @@ function Home() {
             <FaEnvelope size={32}></FaEnvelope>
           </Button>
           <Button
+            className="sm-button"
             variant="icon"
             size="lg"
             href="https://www.github.com/williamlwallace"
@@ -37,6 +39,7 @@ function Home() {
             <FaGithub size={32}></FaGithub>
           </Button>
           <Button
+            className="sm-button"
             variant="icon"
             size="lg"
             href="https://www.linkedin.com/in/william-wallace-289a3b1a2/"
