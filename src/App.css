@@ -106,7 +106,7 @@
 } 
 
 .project-link:hover .project-card-title {
-  color:rgb(0, 174, 255)
+  color: rgb(0, 174, 255)
 }
 
 .project-link:hover .project-card-text {
@@ -124,4 +124,18 @@
 
 .font-weight-300 {
   font-weight: 300;
+}
+
+.blue {
+  color: rgb(0, 174, 255);
+}
+
+.blue-href {
+  color: rgb(0, 174, 255);
+  text-decoration: none;
+}
+
+.blue-href:hover {
+  color: rgb(0, 174, 255);  
+  text-decoration: underline;
 }

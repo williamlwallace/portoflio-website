@@ -16,7 +16,7 @@ function Home() {
             className="image"
             roundedCircle
           ></Image>
-          <h1 className="font-weight-500">Hi, my name is William Wallace.</h1>
+          <h1 className="font-weight-500">Hi, my name is <span className="blue">William Wallace.</span></h1>
           <h3 className="font-weight-300">
             <ReactRotatingText
               items={["Software Engineer.", "Full Stack Web Developer."]}

@@ -10,13 +10,15 @@ import {
   FaNodeJs,
   FaNode,
 } from "react-icons/fa";
-import { Fade } from "react-reveal";
+import { Fade, Bounce } from "react-reveal";
 
 function About() {
   return (
     <div id="about" className="section">
       <Fade>
         <h1>About me.</h1>
+      </Fade>
+      <Fade>
         <div className="about-flex">
           <div className="about-card">
             <p className="font-weight-300">
@@ -25,7 +27,7 @@ function About() {
               Honours). My passion is web development, I have a special interest
               torwards developing fluid, reactive and user-friendly
               applications. I enjoy working in team-based projects.
-            </p>
+          </p>
             <h4>Languages, frameworks and tools</h4>
             <div className="spacing">
               <FaPython size={32} className="icon" />

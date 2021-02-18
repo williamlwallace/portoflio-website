@@ -6,9 +6,11 @@ function Projects() {
   return (
     <div id="projects" className="section">
       <Fade>
-        <h1>Some Past Projects.</h1>
-        <div className="project-flex">
-          <div className="project-row">
+        <h1>Some past projects.</h1>
+      </Fade>
+      <div className="project-flex">
+        <div className="project-row">
+          <Fade>
             <Tilt>
               <a
                 className="project-link"
@@ -33,6 +35,8 @@ function Projects() {
                 </Card>
               </a>
             </Tilt>
+          </Fade>
+          <Fade>
             <Tilt>
               <a
                 className="project-link"
@@ -56,8 +60,10 @@ function Projects() {
                 </Card>
               </a>
             </Tilt>
-          </div>
-          <div className="project-row">
+          </Fade>
+        </div>
+        <div className="project-row">
+          <Fade>
             <Tilt>
               <a
                 className="project-link"
@@ -82,6 +88,8 @@ function Projects() {
                 </Card>
               </a>
             </Tilt>
+          </Fade>
+          <Fade>
             <Tilt>
               <a
                 className="project-link"
@@ -105,10 +113,13 @@ function Projects() {
                 </Card>
               </a>
             </Tilt>
-          </div>
+          </Fade>
         </div>
+      </div>
+      <Fade>
+        <h4>More on my <a className="blue-href" href="https://github.com/williamlwallace?tab=repositories">GitHub.</a></h4>
       </Fade>
-    </div>
+    </div >
   );
 }
 
