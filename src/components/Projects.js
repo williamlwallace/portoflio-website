@@ -12,7 +12,6 @@ function Projects() {
           <Card.Img
             variant="top"
             className="project-card-img"
-            fluid={true}
             src="/images/cokiexplorer.png"
           />
           <Card.Body>
@@ -40,7 +39,6 @@ function Projects() {
           <Card.Img
             variant="top"
             className="project-card-img"
-            fluid={true}
             src="/images/travelea3.PNG"
           />
           <Card.Body>
@@ -67,7 +65,6 @@ function Projects() {
           <Card.Img
             variant="top"
             className="project-card-img"
-            fluid={true}
             src="/images/covidaily.png"
           />
           <Card.Body>

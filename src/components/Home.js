@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 function Home() {
   return (
-    <div id="home" className="home-section bg">
+    <div id="home" className="home-section">
       <Container>
         <motion.div
           animate={{ scale: [1.1, 1], y: [20, 0] }}

@@ -10,12 +10,12 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <ParticlesBg
+      {/* <ParticlesBg
         color={"#434343"}
         type="cobweb"
         bg={true}
         className="particles"
-      />
+      /> */}
       <Header />
       <Home></Home>
       <About></About>
