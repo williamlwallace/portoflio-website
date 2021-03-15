@@ -2,39 +2,32 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.font-weight-300 {
+  font-weight: 300;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+.nav-link {
+  font-weight: 500;
 }
 
 .btn-icon {
@@ -53,26 +46,57 @@
   align-items: center;
 }
 
+.home-title {
+  font-weight: 500;
+  text-shadow:  0 1px #05377048
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+}
+
 .section {
-  margin: 5rem 2rem 5rem 2rem;
-  /* height: 50vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.section-title {
+  font-weight: 600;
+  border-bottom: 4px solid rgb(0, 174, 255);
+  /* text-shadow:  0 1px #05377048 */
 }
 
 .image {
   padding: 2rem;
+  max-width: 25rem;
 }
 
 .about-card {
-  padding: 2rem;
-  max-width: 80vh;
-  box-shadow: 0 1px 1px 0 rgba(0,0,0,.06),0 2px 5px 0 rgba(0,0,0,.2);
+  padding: 1rem;
+  max-width: 50vh;
 }
 
-.about-flex {
+.about-skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+}
+
+.about-skills-title {
+  padding-top: 2rem;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.about-description {
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 
 .card {
@@ -82,7 +106,7 @@
 }
 
 .icon {
-  margin: 1.5rem
+  margin: 1rem
 }
 
 .project-flex {
@@ -92,38 +116,44 @@
   align-items: center;
 }
 
+.project-card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+  max-width: 70rem;
+}
+
 .project-card {
   margin: 1rem;
-  max-width: 38vh;
-}
-
-.project-link {
-  color: inherit
-}
-
-.project-link:hover {
-  text-decoration: none;
-} 
-
-.project-link:hover .project-card-title {
-  color: rgb(0, 174, 255)
-}
-
-.project-link:hover .project-card-text {
-  color: black;
-  font-weight: 300;
+  max-width: 30rem;
 }
 
 .project-card-img {
-  height: 15rem;
+  object-fit: cover;
+  max-height: 15rem;
 }
 
-.font-weight-500 {
-  font-weight: 500;
+.project-card-title {
+  font-weight: 600 !important;
+  font-style: italic;
 }
 
-.font-weight-300 {
-  font-weight: 300;
+.project-card-text {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.project-button {
+  float: right;
+  padding: 0 !important;
+}
+
+.footer {
+  background-color: rgba(0,0,0,.03);
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .blue {
