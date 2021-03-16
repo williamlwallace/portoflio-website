@@ -3,16 +3,18 @@ import Card from "react-bootstrap/Card";
 import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-function Projects() {
+const Projects = props => {
+  const { darkMode } = props;
   return (
     <div id="projects" className="section">
       <h1 className="section-title">Past projects.</h1>
       <div className="project-card-deck">
-        <Card className="project-card">
+        <Card className={darkMode.value ? "project-card-dark" : "project-card-light"}>
           <Card.Img
             variant="top"
             className="project-card-img"
             src="/images/cokiexplorer.png"
+            alt="COKI Explorer"
           />
           <Card.Body>
             <Card.Title className="project-card-title">
@@ -35,11 +37,12 @@ function Projects() {
           </Card.Footer>
         </Card>
 
-        <Card className="project-card">
+        <Card className={darkMode.value ? "project-card-dark" : "project-card-light"}>
           <Card.Img
             variant="top"
             className="project-card-img"
             src="/images/travelea3.PNG"
+            alt="TravelEA"
           />
           <Card.Body>
             <Card.Title className="project-card-title">TravelEA</Card.Title>
@@ -61,11 +64,12 @@ function Projects() {
           </Card.Footer>
         </Card>
 
-        <Card className="project-card">
+        <Card className={darkMode.value ? "project-card-dark" : "project-card-light"}>
           <Card.Img
             variant="top"
             className="project-card-img"
             src="/images/covidaily.png"
+            alt="COVIDaily"
           />
           <Card.Body>
             <Card.Title className="project-card-title">COVIDaily</Card.Title>
@@ -86,11 +90,12 @@ function Projects() {
           </Card.Footer>
         </Card>
 
-        <Card className="project-card">
+        <Card className={darkMode.value ? "project-card-dark" : "project-card-light"}>
           <Card.Img
             variant="top"
             className="project-card-img"
             src="/images/pocketchef.PNG"
+            alt="PocketCHEF"
           />
           <Card.Body>
             <Card.Title className="project-card-title">PocketCHEF</Card.Title>

@@ -1,3 +1,22 @@
+body.light-mode {
+  background-color: #fff;
+  color: #212529;
+  transition: background-color 0.3s ease;
+}
+body.dark-mode {
+  background-color: #232935; 
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+button {
+  outline: none;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
 .App {
   text-align: center;
 }
@@ -30,13 +49,20 @@
   font-weight: 500;
 }
 
+.switch-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 2rem;
+}
+
 .btn-icon {
-    background-color: transparent; 
-    border: none; 
-    color: rgb(43, 43, 43); 
+  background-color: transparent; 
+  border: none; 
 }
 .btn-icon:hover {
-    color: rgb(0, 174, 255) !important;
+  color: rgb(0, 174, 255) !important;
 }
 
 .home-section {
@@ -124,9 +150,17 @@
   max-width: 70rem;
 }
 
-.project-card {
+.project-card-light {
   margin: 1rem;
   max-width: 30rem;
+  color: #212529;
+}
+
+.project-card-dark {
+  margin: 1rem;
+  max-width: 30rem;
+  background-color: #2d3542 !important;
+  color: white;
 }
 
 .project-card-img {

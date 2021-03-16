@@ -10,14 +10,17 @@ import {
   FaPhp,
   FaLaravel,
   FaNpm,
+  FaMobileAlt,
+  FaCopyright,
+  FaDatabase,
+  FaGoogle,
 } from "react-icons/fa";
 import Tooltip from "react-bootstrap/Tooltip";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
-import Image from "react-bootstrap/Image";
 import { motion } from "framer-motion";
 import Emoji from "../utilities/Emoji";
 
-function About() {
+const About = () => {
   return (
     <div id="about" className="section">
       <h1 className="section-title">About me.</h1>
@@ -76,21 +79,13 @@ function About() {
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>C</Tooltip>}>
-              <Image
-                style={{ width: 32 }}
-                className="icon"
-                src="/images/c.svg"
-              />
+              <FaCopyright size={32} className="icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>C++</Tooltip>}>
-              <Image
-                style={{ width: 32 }}
-                className="icon"
-                src="/images/c++.svg"
-              />
+              <FaCopyright size={32} className="icon" />
             </OverlayTrigger>
           </motion.div>
 
@@ -108,31 +103,19 @@ function About() {
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>Kotlin</Tooltip>}>
-              <Image
-                style={{ width: 32 }}
-                className="icon"
-                src="/images/kotlin.svg"
-              />
+              <FaMobileAlt size={32} className="icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>SQL</Tooltip>}>
-              <Image
-                style={{ width: 32 }}
-                className="icon"
-                src="/images/sql.svg"
-              />
+              <FaDatabase size={32} className="icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>Firebase</Tooltip>}>
-              <Image
-                style={{ width: 32 }}
-                className="icon"
-                src="/images/firebase.svg"
-              />
+              <FaGoogle size={32} className="icon" />
             </OverlayTrigger>
           </motion.div>
 

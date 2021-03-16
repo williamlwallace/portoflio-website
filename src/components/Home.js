@@ -6,7 +6,8 @@ import Image from "react-bootstrap/Image";
 import ReactRotatingText from "react-rotating-text";
 import { motion } from "framer-motion";
 
-function Home() {
+const Home = props => {
+  const { darkMode } = props;
   return (
     <div id="home" className="home-section">
       <Container>
@@ -34,32 +35,29 @@ function Home() {
           <div className="home-buttons">
             <motion.div whileHover={{ scale: 1.2 }}>
               <Button
-                className="sm-button"
                 variant="icon"
                 size="lg"
                 href="mailto:williamwallace424@yahoo.co.nz"
               >
-                <FaEnvelope size={32}></FaEnvelope>
+                <FaEnvelope size={32} color={darkMode.value ? "white" : "#212529"}></FaEnvelope>
               </Button>
             </motion.div>
             <motion.div whileHover={{ scale: 1.2 }}>
               <Button
-                className="sm-button"
                 variant="icon"
                 size="lg"
                 href="https://www.github.com/williamlwallace"
               >
-                <FaGithub size={32}></FaGithub>
+                <FaGithub size={32} color={darkMode.value ? "white" : "#212529"}></FaGithub>
               </Button>
             </motion.div>
             <motion.div whileHover={{ scale: 1.2 }}>
               <Button
-                className="sm-button"
                 variant="icon"
                 size="lg"
                 href="https://www.linkedin.com/in/william-wallace-289a3b1a2/"
               >
-                <FaLinkedin size={32}></FaLinkedin>
+                <FaLinkedin size={32} color={darkMode.value ? "white" : "#212529"}></FaLinkedin>
               </Button>
             </motion.div>
           </div>
