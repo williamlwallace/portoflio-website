@@ -31,103 +31,103 @@ const About = () => {
           enjoy creating fluid, reactive and user-friendly applications. In my
           free time you will either find me working on side projects, gaming
           with friends or unracking four plate squats at the gym{" "}
-          <Emoji symbol="🏋️" label="sheep" />.
+          <Emoji symbol="🏋️" label="gym" />.
         </p>
         <h4 className="about-skills-title">Languages, frameworks and tools</h4>
         <div className="about-skills">
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>HTML5</Tooltip>}>
-              <FaHtml5 size={32} className="icon" />
+              <FaHtml5 size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>CSS</Tooltip>}>
-              <FaCss3Alt size={32} className="icon" />
+              <FaCss3Alt size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>JavaScript</Tooltip>}>
-              <FaJs size={32} className="icon" />
+              <FaJs size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>React / React-Native</Tooltip>}>
-              <FaReact size={32} className="icon" />
+              <FaReact size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>Node</Tooltip>}>
-              <FaNodeJs size={32} className="icon" />
+              <FaNodeJs size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>Python</Tooltip>}>
-              <FaPython size={32} className="icon" />
+              <FaPython size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>Java</Tooltip>}>
-              <FaJava size={32} className="icon" />
+              <FaJava size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>C</Tooltip>}>
-              <FaCopyright size={32} className="icon" />
+              <FaCopyright size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>C++</Tooltip>}>
-              <FaCopyright size={32} className="icon" />
+              <FaCopyright size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>PHP</Tooltip>}>
-              <FaPhp size={32} className="icon" />
+              <FaPhp size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>Laravel</Tooltip>}>
-              <FaLaravel size={32} className="icon" />
+              <FaLaravel size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>Kotlin</Tooltip>}>
-              <FaMobileAlt size={32} className="icon" />
+              <FaMobileAlt size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>SQL</Tooltip>}>
-              <FaDatabase size={32} className="icon" />
+              <FaDatabase size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>Firebase</Tooltip>}>
-              <FaGoogle size={32} className="icon" />
+              <FaGoogle size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>Git</Tooltip>}>
-              <FaGit size={32} className="icon" />
+              <FaGit size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>Npm</Tooltip>}>
-              <FaNpm size={32} className="icon" />
+              <FaNpm size={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
         </div>

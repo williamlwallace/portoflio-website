@@ -146,7 +146,7 @@ const Projects = props => {
       <h4 className="mt-5">
         More on my{" "}
         <a
-          className="blue-href"
+          className="a-blue"
           href="https://github.com/williamlwallace?tab=repositories"
           target="_blank" 
           rel="noopener noreferrer"

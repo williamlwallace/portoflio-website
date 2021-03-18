@@ -1,4 +1,4 @@
-import "./App.css";
+import "./scss/main.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
@@ -11,7 +11,7 @@ const App = () => {
   const darkMode = useDarkMode(false);
 
   return (
-    <div className="App">
+    <div>
       <Header darkMode={darkMode}/>
       <Home darkMode={darkMode}></Home>
       <About></About>

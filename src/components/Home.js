@@ -1,4 +1,4 @@
-import "../App.css";
+import "../scss/main.scss";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
@@ -12,18 +12,18 @@ const Home = props => {
     <div id="home" className="home-section">
       <Container>
         <motion.div
-          animate={{ scale: [1.1, 1], y: [20, 0] }}
+          animate={{ scale: [1.1, 1], y: [-20, 0] }}
           transition={{ duration: 2 }}
         >
           <Image
             src="/images/profile_alt.JPG"
-            className="image"
+            className="home-image"
             roundedCircle
           ></Image>
           <h1 className="home-title">
             Hi, my name is <span className="blue">William Wallace.</span>
           </h1>
-          <h3 className="font-weight-300">
+          <h3 className="home-rotating-text">
             <ReactRotatingText
               items={[
                 "Software Engineer.",

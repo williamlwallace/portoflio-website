@@ -1,0 +1,26 @@
+$primary-color: #00aeff;
+$white: #FFFFFF;
+$black: #212529;
+$night-blue: #232935; 
+
+body {
+  &.light-mode {
+    background-color: $white;
+    color: $black;
+    transition: background-color 0.3s ease;
+  }
+
+  &.dark-mode {
+    background-color: $night-blue;
+    color: $white;
+    transition: background-color 0.3s ease;
+  }
+}
+
+button {
+  outline: none;
+
+  &:focus {
+    outline: 0 !important;
+  }
+}

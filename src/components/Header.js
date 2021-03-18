@@ -8,7 +8,7 @@ const Header = props => {
   const { darkMode } = props;
   return (
     <Container>
-      <Navbar fluid sticky="top" variant={darkMode.value ? "dark" : "light"}>
+      <Navbar fixed="top" className={darkMode.value ? "navbar dark-mode" : "navbar"} variant={darkMode.value ? "dark" : "light"}>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">

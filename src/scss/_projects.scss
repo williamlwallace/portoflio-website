@@ -1,0 +1,49 @@
+.project-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+  max-width: 70rem;
+}
+
+.project-card-light {
+  margin: 1rem;
+  max-width: 30rem;
+  color: #212529;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-card-dark {
+  margin: 1rem;
+  max-width: 30rem;
+  background-color: #2d3542 !important;
+  color: white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-card-img {
+  object-fit: cover;
+  max-height: 15rem;
+}
+
+.project-card-title {
+  font-weight: 600 !important;
+  font-style: italic;
+}
+
+.project-card-text {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.project-button {
+  float: right;
+  padding: 0 !important;
+}
