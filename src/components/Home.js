@@ -16,7 +16,7 @@ const Home = props => {
           transition={{ duration: 2 }}
         >
           <Image
-            src="/images/profile.jpg"
+            src="/images/profile_alt.jpg"
             className="image"
             roundedCircle
           ></Image>
@@ -47,6 +47,8 @@ const Home = props => {
                 variant="icon"
                 size="lg"
                 href="https://www.github.com/williamlwallace"
+                target="_blank" 
+                rel="noopener noreferrer"
               >
                 <FaGithub size={32} color={darkMode.value ? "white" : "#212529"}></FaGithub>
               </Button>
@@ -56,6 +58,8 @@ const Home = props => {
                 variant="icon"
                 size="lg"
                 href="https://www.linkedin.com/in/william-wallace-289a3b1a2/"
+                target="_blank" 
+                rel="noopener noreferrer"
               >
                 <FaLinkedin size={32} color={darkMode.value ? "white" : "#212529"}></FaLinkedin>
               </Button>

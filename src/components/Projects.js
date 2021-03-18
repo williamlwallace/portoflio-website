@@ -31,6 +31,8 @@ const Projects = props => {
               className="project-button"
               variant="icon"
               href="https://github.com/williamlwallace/Final-Year-Project"
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               <FaGithub size={24} />
             </Button>
@@ -58,6 +60,8 @@ const Projects = props => {
               className="project-button"
               variant="icon"
               href="https://github.com/williamlwallace/TravelEA"
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               <FaGithub size={24} />
             </Button>
@@ -84,6 +88,8 @@ const Projects = props => {
               className="project-button"
               variant="icon"
               href="https://github.com/williamlwallace/COVIDaily"
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               <FaGithub size={24} />
             </Button>
@@ -110,6 +116,8 @@ const Projects = props => {
               className="project-button"
               variant="icon"
               href="https://github.com/williamlwallace/PocketCHEF"
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               <FaGithub size={24} />
             </Button>
@@ -140,6 +148,8 @@ const Projects = props => {
         <a
           className="blue-href"
           href="https://github.com/williamlwallace?tab=repositories"
+          target="_blank" 
+          rel="noopener noreferrer"
         >
           GitHub.
         </a>
