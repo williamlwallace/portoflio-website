@@ -16,7 +16,7 @@ const Home = props => {
           transition={{ duration: 2 }}
         >
           <Image
-            src="/images/profile_alt.JPG"
+            src="/images/profile.jpg"
             className="home-image"
             roundedCircle
           ></Image>

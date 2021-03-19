@@ -14,7 +14,7 @@ const App = () => {
     <div>
       <Header darkMode={darkMode}/>
       <Home darkMode={darkMode}></Home>
-      <About></About>
+      <About darkMode={darkMode}></About>
       <Projects darkMode={darkMode}></Projects>
       <Footer></Footer>
     </div>

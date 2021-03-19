@@ -13,19 +13,16 @@
   max-width: 70rem;
 }
 
-.project-card-light {
+.project-card {
   margin: 1rem;
   max-width: 30rem;
-  color: #212529;
+  color: $black;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-}
 
-.project-card-dark {
-  margin: 1rem;
-  max-width: 30rem;
-  background-color: #2d3542 !important;
-  color: white;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  &.dark {
+    background-color: #2d3542 !important;
+    color: $white;
+  }
 }
 
 .project-card-img {
@@ -46,4 +43,8 @@
 .project-button {
   float: right;
   padding: 0 !important;
+
+  &.dark {
+    color: white;
+  }
 }

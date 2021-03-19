@@ -1,7 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { FaGithub } from "react-icons/fa";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const Projects = props => {
   const { darkMode } = props;
@@ -9,7 +9,7 @@ const Projects = props => {
     <div id="projects" className="section">
       <h1 className="section-title">Past projects.</h1>
       <div className="project-card-deck">
-        <Card className={darkMode.value ? "project-card-dark" : "project-card-light"}>
+        <Card className={darkMode.value ? "project-card dark" : "project-card"}>
           <Card.Img
             variant="top"
             className="project-card-img"
@@ -28,7 +28,7 @@ const Projects = props => {
           <Card.Footer>
             <small className="text-muted">React • Redux • Firebase</small>
             <Button
-              className="project-button"
+              className={darkMode.value ? "project-button dark" : "project-button"}
               variant="icon"
               href="https://github.com/williamlwallace/Final-Year-Project"
               target="_blank" 
@@ -39,7 +39,7 @@ const Projects = props => {
           </Card.Footer>
         </Card>
 
-        <Card className={darkMode.value ? "project-card-dark" : "project-card-light"}>
+        <Card className={darkMode.value ? "project-card dark" : "project-card"}>
           <Card.Img
             variant="top"
             className="project-card-img"
@@ -57,7 +57,7 @@ const Projects = props => {
           <Card.Footer>
             <small className="text-muted">HTML5 • JavaScript • Java</small>
             <Button
-              className="project-button"
+              className={darkMode.value ? "project-button dark" : "project-button"}
               variant="icon"
               href="https://github.com/williamlwallace/TravelEA"
               target="_blank" 
@@ -68,7 +68,7 @@ const Projects = props => {
           </Card.Footer>
         </Card>
 
-        <Card className={darkMode.value ? "project-card-dark" : "project-card-light"}>
+        <Card className={darkMode.value ? "project-card dark" : "project-card"}>
           <Card.Img
             variant="top"
             className="project-card-img"
@@ -85,7 +85,7 @@ const Projects = props => {
           <Card.Footer>
             <small className="text-muted">Kotlin</small>
             <Button
-              className="project-button"
+              className={darkMode.value ? "project-button dark" : "project-button"}
               variant="icon"
               href="https://github.com/williamlwallace/COVIDaily"
               target="_blank" 
@@ -96,7 +96,7 @@ const Projects = props => {
           </Card.Footer>
         </Card>
 
-        <Card className={darkMode.value ? "project-card-dark" : "project-card-light"}>
+        <Card className={darkMode.value ? "project-card dark" : "project-card"}>
           <Card.Img
             variant="top"
             className="project-card-img"
@@ -113,7 +113,7 @@ const Projects = props => {
           <Card.Footer>
             <small className="text-muted">Kotlin • Firebase</small>
             <Button
-              className="project-button"
+              className={darkMode.value ? "project-button dark" : "project-button"}
               variant="icon"
               href="https://github.com/williamlwallace/PocketCHEF"
               target="_blank" 

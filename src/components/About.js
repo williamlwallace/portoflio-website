@@ -10,17 +10,15 @@ import {
   FaPhp,
   FaLaravel,
   FaNpm,
-  FaMobileAlt,
-  FaCopyright,
-  FaDatabase,
-  FaGoogle,
 } from "react-icons/fa";
 import Tooltip from "react-bootstrap/Tooltip";
+import Image from "react-bootstrap/Image";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
-import { motion } from "framer-motion";
 import Emoji from "../utilities/Emoji";
+import { motion } from "framer-motion";
 
-const About = () => {
+const About = props => {
+  const { darkMode } = props;
   return (
     <div id="about" className="section">
       <h1 className="section-title">About me.</h1>
@@ -79,13 +77,13 @@ const About = () => {
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>C</Tooltip>}>
-              <FaCopyright size={32} className="about-icon" />
+              <Image src={darkMode.value ? "/icons/c-dark.svg" : "/icons/c.svg"} width={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>C++</Tooltip>}>
-              <FaCopyright size={32} className="about-icon" />
+              <Image src={darkMode.value ? "/icons/c++-dark.svg" : "/icons/c++.svg"} width={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
@@ -103,19 +101,19 @@ const About = () => {
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>Kotlin</Tooltip>}>
-              <FaMobileAlt size={32} className="about-icon" />
+              <Image src={darkMode.value ? "/icons/kotlin-dark.svg" : "/icons/kotlin.svg"} width={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>SQL</Tooltip>}>
-              <FaDatabase size={32} className="about-icon" />
+              <Image src={darkMode.value ? "/icons/sql-dark.svg" : "/icons/sql.svg"} width={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
           <motion.div whileHover={{ scale: 1.2 }}>
             <OverlayTrigger overlay={<Tooltip>Firebase</Tooltip>}>
-              <FaGoogle size={32} className="about-icon" />
+              <Image src={darkMode.value ? "/icons/firebase-dark.svg" : "/icons/firebase.svg"} width={32} className="about-icon" />
             </OverlayTrigger>
           </motion.div>
 
