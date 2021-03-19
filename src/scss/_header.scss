@@ -2,20 +2,6 @@ $duration: .2s;
 $distance: 8px;
 $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 
-.navbar {
-  background-color: $transparent;
-  background-image: linear-gradient(to bottom, $white 0%, $transparent 100%);
-  background-image: -webkit-linear-gradient(to bottom, $white 0%, $transparent 100%);
-  background-image: -o-linear-gradient(to bottom, $white 0%, $transparent 100%);
-  
-  &.dark-mode {
-    background-image: linear-gradient(to bottom,  $black 0%, $transparent 100%);
-    background-image: -webkit-linear-gradient(to bottom,  $black 0%, $transparent 100%);
-    background-image: -o-linear-gradient(to bottom,  $black 0%, $transparent 100%);
-
-  }
-}
-
 .nav-link {
   position: relative;
   font-weight: 500;
