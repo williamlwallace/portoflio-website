@@ -30,7 +30,7 @@ const Projects = props => {
             <Button
               className={darkMode.value ? "project-button dark" : "project-button"}
               variant="icon"
-              href="https://github.com/williamlwallace/Final-Year-Project"
+              href="https://github.com/williamlwallace/coki-explorer"
               target="_blank" 
               rel="noopener noreferrer"
             >
@@ -59,7 +59,7 @@ const Projects = props => {
             <Button
               className={darkMode.value ? "project-button dark" : "project-button"}
               variant="icon"
-              href="https://github.com/williamlwallace/TravelEA"
+              href="https://github.com/williamlwallace/travel-ea"
               target="_blank" 
               rel="noopener noreferrer"
             >
@@ -87,7 +87,7 @@ const Projects = props => {
             <Button
               className={darkMode.value ? "project-button dark" : "project-button"}
               variant="icon"
-              href="https://github.com/williamlwallace/COVIDaily"
+              href="https://github.com/williamlwallace/covid-daily"
               target="_blank" 
               rel="noopener noreferrer"
             >
@@ -115,7 +115,7 @@ const Projects = props => {
             <Button
               className={darkMode.value ? "project-button dark" : "project-button"}
               variant="icon"
-              href="https://github.com/williamlwallace/PocketCHEF"
+              href="https://github.com/williamlwallace/pocket-chef"
               target="_blank" 
               rel="noopener noreferrer"
             >
