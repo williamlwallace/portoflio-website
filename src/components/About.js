@@ -24,12 +24,8 @@ const About = props => {
       <h1 className="section-title">About me.</h1>
       <div className="about-card">
         <p className="about-description">
-          I am a soon to be graduate Software Engineer (w/ Honours) from the
-          University of Canterbury. My passion is full stack development. I
-          enjoy creating fluid, reactive and user-friendly applications. In my
-          free time you will either find me working on side projects, gaming
-          with friends or unracking four plate squats at the gym{" "}
-          <Emoji symbol="🏋️" label="gym" />.
+          I am a graduate Software Engineer (w/ Honours) from the University of Canterbury. My passion is full stack development. I enjoy creating fluid, reactive and user-friendly applications. In my free time you will either find me working on side projects, gaming with friends or unracking four plate squats at the gym{" "}
+          <Emoji symbol="🏋️" label="gym" />
         </p>
         <h4 className="about-skills-title">Languages, frameworks and tools</h4>
         <div className="about-skills">

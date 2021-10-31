@@ -124,21 +124,30 @@ const Projects = props => {
           </Card.Footer>
         </Card>
 
-        {/* <Card className="project-card">
+        {/* <Card className={darkMode.value ? "project-card dark" : "project-card"}>
           <Card.Img
             variant="top"
             className="project-card-img"
             src="/images/pocketchef.PNG"
+            alt="rogur"
           />
           <Card.Body>
-            <Card.Title className="project-card-title">rogur.</Card.Title>
-            <Card.Text className="project-card-text font-weight-400">
-              Uber clone built using React Native
+            <Card.Title className="project-card-title">rogur</Card.Title>
+            <Card.Text className="project-card-text">
+              Uber app clone built using React Native
             </Card.Text>
           </Card.Body>
           <Card.Footer>
             <small className="text-muted">React Native • Redux • Express • MongoDB</small>
-            <Button className="project-button" variant="icon" href="https://github.com/williamlwallace/PocketCHEF"><FaGithub size={24}/></Button>
+            <Button
+              className={darkMode.value ? "project-button dark" : "project-button"}
+              variant="icon"
+              href="https://github.com/williamlwallace/rogur"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <FaGithub size={24} />
+            </Button>
           </Card.Footer>
         </Card> */}
       </div>
