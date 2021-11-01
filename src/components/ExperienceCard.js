@@ -1,8 +1,8 @@
-const ExperienceCard = (date, company, role) => {
+const ExperienceCard = (props, date, company, role) => {
   return (
     <div className="experience-card">
       <div>
-        <p className="text-muted experience-date">{date}</p>
+        <p className="experience-date">{date}</p>
       </div>
       <div>
         <p className="experience-company">{company}</p>
