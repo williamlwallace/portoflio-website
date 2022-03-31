@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "../scss/main.scss";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import Button from "react-bootstrap/Button";
@@ -7,7 +8,10 @@ import ReactRotatingText from "react-rotating-text";
 import { motion } from "framer-motion";
 
 const Home = props => {
+
   const { darkMode } = props;
+  const [homeImage, setHomeImage] = useState("/images/profile.jpg");
+
   return (
     <div id="home" className="home-section">
       <Container>
@@ -16,10 +20,11 @@ const Home = props => {
           transition={{ duration: 2 }}
         >
           <Image
-            src="/images/profile.jpg"
+            src={homeImage}
             className="home-image"
             roundedCircle
-          ></Image>
+            onMouseOver={setHomeImage("/images/profile.jpg" ? "/images/lift.jpg" : "/images/profile.jpg")}
+          />
           <h1 className="home-title">
             Hi, my name is <span className="blue">William Wallace.</span>
           </h1>
@@ -47,7 +52,7 @@ const Home = props => {
                 variant="icon"
                 size="lg"
                 href="https://www.github.com/williamlwallace"
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaGithub size={32} color={darkMode.value ? "white" : "#212529"}></FaGithub>
@@ -58,7 +63,7 @@ const Home = props => {
                 variant="icon"
                 size="lg"
                 href="https://www.linkedin.com/in/william-wallace-289a3b1a2/"
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedin size={32} color={darkMode.value ? "white" : "#212529"}></FaLinkedin>
